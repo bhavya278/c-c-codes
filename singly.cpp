@@ -234,7 +234,7 @@ void DeleteEndList() //Deletion At End
     SecondLast->ptr = 0;
   }
   free(ToDelete);
-  cout << "Deleted Sucessfully !!!!!:";
+  cout << "Deleted Sucessfully !!!!!:\n";
 }
 void DeletePosList(int pos) //Deletion At Specific Position
 {
@@ -242,7 +242,7 @@ void DeletePosList(int pos) //Deletion At Specific Position
   yogi *ToDelete, *PrevNode;
   if (first == 0)
   {
-    cout << "Node Cannot Be Deleted !!!!";
+    cout << "Node Cannot Be Deleted !!!!\n";
   }
   else
   {
