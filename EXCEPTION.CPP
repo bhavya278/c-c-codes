@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 float division(float x,float y)
 {
@@ -18,11 +18,11 @@ int main()
    try
    {
       k=division(i,j);
-      cout<<"Answer is : "<<k;
+      cout<<"Correct Answer is : "<<k;
    }
    catch(const char*z)
    {
-      cout<<z<<endl;
+      cout<<"Value of z is "<<z<<"\n";
    }
 }
 
